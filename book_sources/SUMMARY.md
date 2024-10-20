@@ -10,3 +10,5 @@
     * [Install 3rd Party Library](articles/VS_Code/Install_3rd_Party_Library.md)
 * [Programming Basics](articles/Programming_Basics/Programming_Basics.md)
     * [Differential Drive](articles/Programming_Basics/Differential_Drive.md)
+        * [Arcade Drive](articles/Programming_Basics/Differential_Drive/Arcade_Drive.md)
+        * [Tank Drive](articles/Programming_Basics/Differential_Drive/Tank_Drive.md)
