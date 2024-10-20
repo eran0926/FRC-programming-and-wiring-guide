@@ -1,6 +1,5 @@
 {
     "plugins": [
-        "anchor-navigation-ex",
         "copy-code-button",
         "theme-comscore"
     ],
