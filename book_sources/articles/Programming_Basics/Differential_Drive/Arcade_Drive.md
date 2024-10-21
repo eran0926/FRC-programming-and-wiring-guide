@@ -1,8 +1,10 @@
 # Arcade Drive
 1. 先開一個Timed Robot的Template
-![{5189D05C-9F66-467D-A924-4F40D3677335}](https://hackmd.io/_uploads/SyhVJ7Ml1e.png)
+<!-- ![{5189D05C-9F66-467D-A924-4F40D3677335}](https://hackmd.io/_uploads/SyhVJ7Ml1e.png) -->
+![alt text](image.png)
 2. 安裝`REVLib`Vendor Libraries (才能控制Spark Max)
-![{DD26F6F0-181C-43DD-A39B-03827A55D528}](https://hackmd.io/_uploads/BJMPY7zlke.png)
+<!-- ![{DD26F6F0-181C-43DD-A39B-03827A55D528}](https://hackmd.io/_uploads/BJMPY7zlke.png) -->
+![alt text](image-1.png)
 3. 宣告左右兩邊的馬達
 ```java
 private final CANSparkMax leftMotor = new CANSparkMax(0, CANSparkMax.MotorType.kBrushless);
@@ -51,6 +53,7 @@ private void setMortorsIdleModeBrake(){
 ```java
 @Override
 public void teleopPeriodic() {
-    drive.arcadeDrive(-driveController.getLeftY(), -driveController.getRightX());
+    drive.arcadeDrive-driveController.getLeftY(), -driveController.getRightX());
 }
 ```
+> 因為搖桿的NED座標系統和WPILib的NWU座標系統Y軸相反，所以要加負號
